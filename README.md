@@ -2,7 +2,8 @@ LABVBLQ Low Audio Bitrate Video Bitrate Low Quality
 WARNING THIS FILE NEEDS FFMPEG TO WORK 
 
 
-How to use
+How to use:
+
 type your video dir with a file . like this C:\Users\Aisultan\Videos\video.mp4
 and your output too
 and wait
