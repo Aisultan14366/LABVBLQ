@@ -4,10 +4,9 @@ echo Input video.(file_type) dir?
 echo.
 set /p input=
 echo.
-echo Output file? 
+echo Output video.(file_type)
 echo.
 set /p output=
-set output=%output%.mp4
 echo.
 rem 
 title ABVBLQ: Executing FFmpeg.
