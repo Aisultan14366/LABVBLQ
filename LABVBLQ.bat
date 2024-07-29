@@ -10,6 +10,5 @@ set /p output=
 echo.
 rem 
 title ABVBLQ: Executing FFmpeg.
-ffmpeg -i %input% -ab 0.01k C:\Users\Aisultan\AppData\Local\Temp\Tempvideo.mp4
+ffmpeg -i %input% -ab 0.01k Audio-bitrate_video.mp4
 ffmpeg -i test1.mp4 -b:v 16k %output%
-del C:\Users\Aisultan\AppData\Local\Temp\Tempvideo.mp4
