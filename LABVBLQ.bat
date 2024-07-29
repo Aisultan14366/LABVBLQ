@@ -11,4 +11,4 @@ echo.
 rem 
 title ABVBLQ: Executing FFmpeg.
 ffmpeg -i %input% -ab 0.01k Audio-bitrate_video.mp4
-ffmpeg -i test1.mp4 -b:v 16k %output%
+ffmpeg -i Audio-bitrate_video.mp4 -b:v 16k %output%
